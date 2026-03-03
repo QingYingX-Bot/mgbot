@@ -23,7 +23,7 @@ config:
         -
           theme: alt
           text: Discord
-          link: https://xmg.099311.xyz
+          link: https://mgdc.099311.xyz
           icon: mdi:discord
   -
     type: features

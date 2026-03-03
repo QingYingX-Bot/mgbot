@@ -34,7 +34,7 @@ pnpm vp-update
 
 - QQ 群：https://qm.qq.com/q/BaBp4oLVgQ
 - Telegram：https://t.me/Xmg_BBot
-- Discord：https://xmg.099311.xyz
+- Discord：https://mgdc.099311.xyz
 - Email：qingyingx@099311.xyz
 
 ## 文档
