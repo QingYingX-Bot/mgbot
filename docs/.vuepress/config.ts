@@ -36,6 +36,14 @@ export default defineUserConfig({
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/xmg.png' }],
     // 添加 meta 标签使图标在某些浏览器中显示为圆形
     ['meta', { name: 'theme-color', content: '#ffffff' }],
+    [
+      'script',
+      {
+        defer: true,
+        src: 'https://umami.099311.xyz/script.js',
+        'data-website-id': 'afe5a367-d26e-4675-ae66-eae06f740394',
+      },
+    ],
   ],
 
   bundler: viteBundler(),
