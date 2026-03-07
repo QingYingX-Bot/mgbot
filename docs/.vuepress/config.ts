@@ -75,6 +75,11 @@ export default defineUserConfig({
     /* 本地搜索, 默认启用 */
     search: { provider: 'local' },
 
+    /* 启用聊天记录容器语法 ::: chat */
+    markdown: {
+      chat: true,
+    },
+
     /**
      * Algolia DocSearch
      * 启用此搜索需要将 本地搜索 search 设置为 false

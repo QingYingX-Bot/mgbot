@@ -16,13 +16,13 @@ list:
         ariaLabel: CONTACT
     backgroundColor:
       light: '#f8fafc'
-      dark: '#263247'
+      dark: '#1f242d'
     color:
       light: '#334155'
-      dark: '#dbeafe'
+      dark: '#cfd8e3'
     nameColor:
       light: '#0f172a'
-      dark: '#f8fafc'
+      dark: '#eef3f9'
 ---
 
 <!-- 如需添加更多友链，请在上方 list 中添加 -->
