@@ -17,6 +17,12 @@ The Site is generated using [vuepress](https://vuepress.vuejs.org/) and [vuepres
 pnpm i
 ```
 
+If this project is located inside another pnpm workspace (for example `/qy/Yunzai`), install with:
+
+```sh
+pnpm install --ignore-workspace
+```
+
 ## Usage
 
 ```sh

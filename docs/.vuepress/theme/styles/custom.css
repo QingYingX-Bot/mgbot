@@ -48,3 +48,30 @@
   --vp-c-text-3: rgba(235, 235, 245, 0.38);
   */
 }
+
+/* 友链头像在深色模式下提高对比度，避免深色图标和底色混在一起 */
+[data-theme="dark"] .vp-friend .avatar {
+  background-color: #e2e8f0;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+[data-theme="dark"] .vp-friend .avatar img {
+  object-position: center;
+}
+
+/* 友链卡片在深色模式下减少发蓝感，增强层次 */
+[data-theme="dark"] .vp-friend {
+  border: 1px solid rgba(148, 163, 184, 0.2);
+}
+
+/* desc 跨整卡显示到左侧，减少窄列换行 */
+.vp-friend .content .desc.offset {
+  margin-top: 8px;
+  margin-left: -104px;
+  max-width: calc(100% + 104px);
+}
+
+[data-theme="dark"] .vp-friend .content .desc {
+  color: #d6deea;
+  line-height: 1.7;
+}

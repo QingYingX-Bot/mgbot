@@ -17,6 +17,12 @@
 pnpm i
 ```
 
+如果该项目位于另一个 pnpm workspace（例如 `/qy/Yunzai`）内部，请使用：
+
+```sh
+pnpm install --ignore-workspace
+```
+
 ## Usage
 
 ```sh
