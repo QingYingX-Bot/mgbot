@@ -46,31 +46,64 @@ const zhBlog = defineCollection({
   //   pagination: 15, // 每页显示文章数量
 })
 
-const zhDemoDoc = defineCollection({
+const zhShowcaseDoc = defineCollection({
   // doc 类型，该类型带有侧边栏
   type: 'doc',
   // 文档集合所在目录，相对于 `docs/`
-  dir: 'demo',
+  dir: 'showcase',
   // `dir` 所指向的目录中的所有 markdown 文件，其 permalink 需要以 `linkPrefix` 配置作为前缀
   // 如果 前缀不一致，则无法生成侧边栏。
   // 所以请确保  markdown 文件的 permalink 都以 `/` + `linkPrefix` 开头
-  linkPrefix: '/demo',
+  linkPrefix: '/showcase',
   // 文档标题，它将用于在页面的面包屑导航中显示
-  title: 'Demo',
+  title: 'Showcase',
   // 手动配置侧边栏结构
-  sidebar: ['', 'foo', 'bar'],
+  sidebar: [
+    '',
+    {
+      text: '米哈游',
+      prefix: 'mihoyo/',
+      items: ['mihoyo', 'gs', 'sr', 'zzz'],
+    },
+    'wuthering',
+    'ark',
+    'endfield',
+    'delta',
+    'sky',
+    'mmdx',
+    'water',
+    'poke',
+  ],
   // 根据文件结构自动生成侧边栏
   // sidebar: 'auto',
+})
+
+const zhTutorialDoc = defineCollection({
+  type: 'doc',
+  dir: 'tutorial',
+  linkPrefix: '/tutorial',
+  title: 'Tutorial',
+  sidebar: [
+    '',
+    'xmghelp',
+    'zmdjc',
+    'bind-uid',
+    'delete-uid',
+    'detail',
+    'cookie',
+    'draw-record',
+  ],
 })
 
 /**
  * 导出所有的 collections
  *  (zhBlog 为博客示例，如果不需要博客功能，请删除)
- *  (zhDemoDoc 为参考示例，如果不需要它，请删除)
+ *  (zhShowcaseDoc 为参考示例，如果不需要它，请删除)
  */
 export const zhCollections = defineCollections([
   zhBlog,
-  zhDemoDoc,
+  zhShowcaseDoc,
+  zhTutorialDoc,
 ])
 
 /* =================== locale: en-US ======================= */
@@ -93,19 +126,34 @@ const enBlog = defineCollection({
   //   pagination: 15, // 每页显示文章数量
 })
 
-const enDemoDoc = defineCollection({
+const enShowcaseDoc = defineCollection({
   // doc 类型，该类型带有侧边栏
   type: 'doc',
   // 文档集合所在目录，相对于 `docs/en/`
-  dir: 'demo',
+  dir: 'showcase',
   // `dir` 所指向的目录中的所有 markdown 文件，其 permalink 需要以 `linkPrefix` 配置作为前缀
   // 如果 前缀不一致，则无法生成侧边栏。
   // 所以请确保  markdown 文件的 permalink 都以 `/en/` + `linkPrefix` 开头
-  linkPrefix: '/demo',
+  linkPrefix: '/showcase',
   // 文档标题，它将用于在页面的面包屑导航中显示
-  title: 'Demo',
+  title: 'Showcase',
   // 手动配置侧边栏结构
-  sidebar: ['', 'foo', 'bar'],
+  sidebar: [
+    '',
+    {
+      text: 'miHoYo',
+      prefix: 'mihoyo/',
+      items: ['mihoyo', 'gs', 'sr', 'zzz'],
+    },
+    'wuthering',
+    'ark',
+    'endfield',
+    'delta',
+    'sky',
+    'mmdx',
+    'water',
+    'poke',
+  ],
   // 根据文件结构自动生成侧边栏
   // sidebar: 'auto',
 })
@@ -113,10 +161,9 @@ const enDemoDoc = defineCollection({
 /**
  * 导出所有的 collections
  *  (enBlog 为博客示例，如果不需要博客功能，请删除)
- *  (enDemoDoc 为参考示例，如果不需要它，请删除)
+ *  (enShowcaseDoc 为参考示例，如果不需要它，请删除)
  */
 export const enCollections = defineCollections([
   enBlog,
-  enDemoDoc,
+  enShowcaseDoc,
 ])
-

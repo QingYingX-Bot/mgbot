@@ -25,7 +25,7 @@ export default defineUserConfig({
     '/en/': {
       title: 'XiaoMiGao',
       lang: 'en-US',
-      description: '米糕糕~',
+      description: 'MiGaoGao~',
     },
   },
 
@@ -36,6 +36,8 @@ export default defineUserConfig({
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/xmg.png' }],
     // 添加 meta 标签使图标在某些浏览器中显示为圆形
     ['meta', { name: 'theme-color', content: '#ffffff' }],
+    ['meta', { name: 'author', content: 'QingYingX(HInXe)' }],
+    ['meta', { name: 'reply-to', content: 'qingyingx@099311.xyz' }],
     [
       'script',
       {
@@ -50,8 +52,23 @@ export default defineUserConfig({
   shouldPrefetch: false, // 站点较大，页面数量较多时，不建议启用
 
   theme: plumeTheme({
-    /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
-    // hostname: 'https://your_site_url',
+    /* 添加部署域名, 有助于 SEO 与生成 sitemap */
+    hostname: 'https://xmg.099311.xyz',
+
+    /* SEO 与 Sitemap */
+    plugins: {
+      seo: {
+        hostname: 'https://xmg.099311.xyz',
+        author: {
+          name: 'QingYingX(HInXe)',
+          email: 'qingyingx@099311.xyz',
+          url: 'https://xmg.099311.xyz',
+        },
+      },
+      sitemap: {
+        hostname: 'https://xmg.099311.xyz',
+      },
+    },
 
     /* 文档仓库配置，用于 editLink */
     // docsRepo: '',

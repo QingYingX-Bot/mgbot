@@ -79,9 +79,109 @@
 /* Help pages: widen chat container for command screenshots */
 .vp-doc._help_ .vp-chat,
 .vp-doc._en_help_ .vp-chat,
+.vp-doc._showcase_ .vp-chat,
+.vp-doc._en_showcase_ .vp-chat,
 ._help_ .vp-chat,
-._en_help_ .vp-chat {
+._en_help_ .vp-chat,
+._showcase_ .vp-chat,
+._en_showcase_ .vp-chat {
   width: 100%;
   max-width: 760px;
   margin: 16px auto;
+}
+
+@media (max-width: 1024px) {
+  .vp-doc._help_ .vp-chat,
+  .vp-doc._en_help_ .vp-chat,
+  .vp-doc._showcase_ .vp-chat,
+  .vp-doc._en_showcase_ .vp-chat,
+  ._help_ .vp-chat,
+  ._en_help_ .vp-chat,
+  ._showcase_ .vp-chat,
+  ._en_showcase_ .vp-chat {
+    max-width: 640px;
+    margin: 14px auto;
+  }
+}
+
+/* Help pages: constrain image messages so long screenshots don't dominate layout */
+.vp-doc._help_ .vp-chat img,
+.vp-doc._en_help_ .vp-chat img,
+.vp-doc._showcase_ .vp-chat img,
+.vp-doc._en_showcase_ .vp-chat img,
+._help_ .vp-chat img,
+._en_help_ .vp-chat img,
+._showcase_ .vp-chat img,
+._en_showcase_ .vp-chat img {
+  display: block;
+  width: min(100%, 200px);
+  max-width: 200px;
+  height: auto;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .vp-doc._help_ .vp-chat,
+  .vp-doc._en_help_ .vp-chat,
+  .vp-doc._showcase_ .vp-chat,
+  .vp-doc._en_showcase_ .vp-chat,
+  ._help_ .vp-chat,
+  ._en_help_ .vp-chat,
+  ._showcase_ .vp-chat,
+  ._en_showcase_ .vp-chat {
+    max-width: 100%;
+    margin: 12px auto;
+  }
+
+  .vp-doc._help_ .vp-chat img,
+  .vp-doc._en_help_ .vp-chat img,
+  .vp-doc._showcase_ .vp-chat img,
+  .vp-doc._en_showcase_ .vp-chat img,
+  ._help_ .vp-chat img,
+  ._en_help_ .vp-chat img,
+  ._showcase_ .vp-chat img,
+  ._en_showcase_ .vp-chat img {
+    width: min(100%, 170px);
+    max-width: 170px;
+  }
+}
+
+/* Shared index cards (tutorial + showcase) */
+.vp-doc._tutorial_ .index-cards,
+.vp-doc._showcase_ .index-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+  margin-top: 12px;
+}
+
+.vp-doc._tutorial_ .index-card,
+.vp-doc._showcase_ .index-card {
+  display: block;
+  padding: 14px 16px;
+  border-radius: 12px;
+  text-decoration: none;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  transition: border-color 0.2s ease;
+}
+
+.vp-doc._tutorial_ .index-card:hover,
+.vp-doc._showcase_ .index-card:hover {
+  border-color: var(--vp-c-brand-1);
+}
+
+.vp-doc._tutorial_ .index-card h3,
+.vp-doc._showcase_ .index-card h3 {
+  margin: 0 0 8px;
+  font-size: 16px;
+  color: var(--vp-c-text-1);
+}
+
+.vp-doc._tutorial_ .index-card p,
+.vp-doc._showcase_ .index-card p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--vp-c-text-2);
 }
