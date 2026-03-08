@@ -6,7 +6,7 @@ config:
     full: true
     hero:
       name: 小米糕
-      text: 智能自助机器人
+      text: 多功能机器人
       tagline: 游戏查询 · 娱乐互动 · 多平台支持
       image: /xmg.png
       actions:

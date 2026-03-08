@@ -6,7 +6,7 @@ config:
     full: true
     hero:
       name: XiaoMiGao
-      text: Intelligent Self-Service Robot
+      text: Multifunctional Robot
       tagline: Game Queries · Entertainment · Multi-Platform
       image: /xmg.png
       actions:
