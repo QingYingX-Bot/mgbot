@@ -56,14 +56,14 @@ const zhShowcaseDoc = defineCollection({
   // 所以请确保  markdown 文件的 permalink 都以 `/` + `linkPrefix` 开头
   linkPrefix: '/showcase',
   // 文档标题，它将用于在页面的面包屑导航中显示
-  title: 'Showcase',
+  title: '功能展示',
   // 手动配置侧边栏结构
   sidebar: [
     '',
     {
       text: '米哈游',
       prefix: 'mihoyo/',
-      items: ['mihoyo', 'gs', 'sr', 'zzz'],
+      items: ['', 'gs', 'sr', 'zzz'],
     },
     'wuthering',
     'ark',
@@ -82,7 +82,7 @@ const zhTutorialDoc = defineCollection({
   type: 'doc',
   dir: 'tutorial',
   linkPrefix: '/tutorial',
-  title: 'Tutorial',
+  title: '教程',
   sidebar: [
     '',
     'xmghelp',
@@ -143,7 +143,7 @@ const enShowcaseDoc = defineCollection({
     {
       text: 'miHoYo',
       prefix: 'mihoyo/',
-      items: ['mihoyo', 'gs', 'sr', 'zzz'],
+      items: ['', 'gs', 'sr', 'zzz'],
     },
     'wuthering',
     'ark',

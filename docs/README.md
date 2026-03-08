@@ -37,15 +37,15 @@ config:
         title: 娱乐互动功能
         details: 每日运势、表情包生成等休闲娱乐服务
       -
-        icon: ri:book-open-fill
-        title: 教程中心
-        details: 提供绑定、Cookie、显示详情等图文教程
-        link: /tutorial/
-      -
         icon: ri:slideshow-3-fill
         title: 功能展示
         details: 按游戏和功能分类查看命令与效果展示
         link: /showcase/
+      -
+        icon: ri:book-open-fill
+        title: 教程
+        details: 提供绑定、Cookie、显示详情等图文教程
+        link: /tutorial/
       -
         icon: ri:apps-fill
         title: 多平台支持
