@@ -50,7 +50,7 @@
 }
 
 /* Home doc-hero: tune only the secondary title text size */
-.vp-home-doc-hero .heading .text {
+/* .vp-home-doc-hero .heading .text {
   font-size: 14px;
   line-height: 22px;
 }
@@ -67,7 +67,7 @@
     font-size: 30px;
     line-height: 38px;
   }
-}
+} */
 
 /* 友链头像在深色模式下提高对比度，避免深色图标和底色混在一起 */
 [data-theme="dark"] .vp-friend .avatar {

@@ -77,12 +77,14 @@ export default defineThemeConfig({
        * 公告板
        * @see https://theme-plume.vuejs.press/guide/features/bulletin/
        */
-       // bulletin: {
-       //   layout: 'top-right',
-       //   contentType: 'markdown',
-       //   title: '',
-       //   content: '',
-       // },
+       bulletin: {
+         layout: 'top-right',
+         contentType: 'markdown',
+         title: '公告~',
+         content: `- QQ 米糕被封咯~
+- 请前往 Telegram 或者 Discord 使用
+         `,
+       },
     },
     '/en/': {
       /**
@@ -108,12 +110,14 @@ export default defineThemeConfig({
        * 公告板
        * @see https://theme-plume.vuejs.press/guide/features/bulletin/
        */
-       // bulletin: {
-       //   layout: 'top-right',
-       //   contentType: 'markdown',
-       //   title: '',
-       //   content: '',
-       // },
+       bulletin: {
+         layout: 'top-right',
+         contentType: 'markdown',
+         title: 'Announcement',
+         content: `- QQ MiGao Banned!
+- Please go to Telegram or Discord to use it.
+         `,
+       },
     },
   },
 })

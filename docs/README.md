@@ -11,20 +11,20 @@ config:
       image: /xmg.png
       actions:
         -
-          theme: brand
-          text: QQ
-          link: https://qm.qq.com/q/BaBp4oLVgQ
-          icon: mdi:qqchat
+          theme: alt
+          text: Discord
+          link: https://mgdc.099311.xyz
+          icon: mdi:discord
         -
           theme: alt
           text: Telegram
           link: https://t.me/Xmg_BBot
           icon: mdi:telegram
         -
-          theme: alt
-          text: Discord
-          link: https://mgdc.099311.xyz
-          icon: mdi:discord
+          theme: brand
+          text: QQ (被封力)
+          link: https://qm.qq.com/q/BaBp4oLVgQ
+          icon: mdi:qqchat
   -
     type: features
     features:
