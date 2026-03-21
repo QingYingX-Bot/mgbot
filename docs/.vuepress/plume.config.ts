@@ -81,7 +81,7 @@ export default defineThemeConfig({
          layout: 'top-right',
          contentType: 'markdown',
          title: '公告~',
-         content: `- QQ 米糕被封咯~
+         content: `- QQ: 开放代挂服务，暂时为免费
 - 请前往 Telegram 或者 Discord 使用
          `,
        },
@@ -114,7 +114,7 @@ export default defineThemeConfig({
          layout: 'top-right',
          contentType: 'markdown',
          title: 'Announcement',
-         content: `- QQ MiGao Banned!
+         content: `- QQ: Open the service of temporary suspension of payment, which is currently free of charge.
 - Please go to Telegram or Discord to use it.
          `,
        },
