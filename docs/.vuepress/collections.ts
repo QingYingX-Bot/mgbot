@@ -72,7 +72,6 @@ const zhShowcaseDoc = defineCollection({
     'sky',
     'mmdx',
     'water',
-    'poke',
   ],
   // 根据文件结构自动生成侧边栏
   // sidebar: 'auto',
@@ -152,7 +151,6 @@ const enShowcaseDoc = defineCollection({
     'sky',
     'mmdx',
     'water',
-    'poke',
   ],
   // 根据文件结构自动生成侧边栏
   // sidebar: 'auto',

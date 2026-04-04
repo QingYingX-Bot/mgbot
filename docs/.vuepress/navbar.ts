@@ -10,6 +10,7 @@ export const zhNavbar = defineNavbarConfig([
   { text: '首页', link: '/' },
   { text: '功能展示', link: '/showcase/' },
   { text: '教程', link: '/tutorial/' },
+  { text: '米糕收益', link: '/income/' },
   { text: '友链', link: '/friends/' },
   {
     text: '关于',

@@ -268,3 +268,21 @@
     padding: 12px 14px;
   }
 }
+
+/* Income page: keep metrics and table readable */
+.vp-doc._income_ .vp-doc-meta,
+._income_ .vp-doc-meta {
+  display: none;
+}
+
+.vp-doc._income_ .vp-card-grid,
+._income_ .vp-card-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+@media (max-width: 640px) {
+  .vp-doc._income_ .vp-card-grid,
+  ._income_ .vp-card-grid {
+    grid-template-columns: 1fr;
+  }
+}

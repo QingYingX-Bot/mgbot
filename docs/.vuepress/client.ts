@@ -5,6 +5,7 @@ import { defineClientConfig } from 'vuepress/client'
 // import Swiper from 'vuepress-theme-plume/features/Swiper.vue'
 
 // import CustomComponent from './theme/components/Custom.vue'
+import IncomePanel from './theme/components/IncomePanel.vue'
 
 import './theme/styles/custom.css'
 
@@ -18,6 +19,7 @@ export default defineClientConfig({
 
     // your custom components
     // app.component('CustomComponent', CustomComponent)
+    app.component('IncomePanel', IncomePanel)
   },
   setup() {
     // 运行时间倒计时

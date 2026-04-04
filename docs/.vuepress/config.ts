@@ -103,6 +103,7 @@ export default defineUserConfig({
     /* 启用聊天记录容器语法 ::: chat */
     markdown: {
       chat: true,
+      table: true,
     },
 
     /**

@@ -77,14 +77,12 @@ export default defineThemeConfig({
        * 公告板
        * @see https://theme-plume.vuejs.press/guide/features/bulletin/
        */
-       bulletin: {
-         layout: 'top-right',
-         contentType: 'markdown',
-         title: '公告~',
-         content: `- QQ: 开放代挂服务，暂时为免费
-- 请前往 Telegram 或者 Discord 使用
-         `,
-       },
+      //  bulletin: {
+      //    layout: 'top-right',
+      //    contentType: 'markdown',
+      //    title: '公告~',
+      //    content: ``,
+      //  },
     },
     '/en/': {
       /**
@@ -110,14 +108,12 @@ export default defineThemeConfig({
        * 公告板
        * @see https://theme-plume.vuejs.press/guide/features/bulletin/
        */
-       bulletin: {
-         layout: 'top-right',
-         contentType: 'markdown',
-         title: 'Announcement',
-         content: `- QQ: Open the service of temporary suspension of payment, which is currently free of charge.
-- Please go to Telegram or Discord to use it.
-         `,
-       },
+      //  bulletin: {
+      //    layout: 'top-right',
+      //    contentType: 'markdown',
+      //    title: 'Announcement',
+      //    content: ``,
+      //  },
     },
   },
 })

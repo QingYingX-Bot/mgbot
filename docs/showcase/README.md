@@ -59,10 +59,6 @@ createTime: 2026/03/08 11:22:27
     <h3>水群记录</h3>
     <p>查看水群相关功能与示例。</p>
   </a>
-  <a class="index-card" href="/showcase/poke/">
-    <h3>戳戳记录</h3>
-    <p>戳戳榜与个人统计命令集合。</p>
-  </a>
 </div>
 
 ## 使用说明

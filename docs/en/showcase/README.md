@@ -59,10 +59,6 @@ This is the feature showcase index. Use the left sidebar to browse categories.
     <h3>Water Group Logs</h3>
     <p>Feature preview and command examples for water logs.</p>
   </a>
-  <a class="index-card" href="/en/showcase/poke/">
-    <h3>Poke Logs</h3>
-    <p>Poke ranking and personal stats command list.</p>
-  </a>
 </div>
 
 ## Usage Notes

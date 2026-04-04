@@ -4,10 +4,10 @@ title: Friend Links
 permalink: /en/friends/
 cols: 3
 list:
-  - name: "Arknights: Endfield"
+  - name: "ENDFIELD TERMINAL"
     link: https://end.shallow.ink
     avatar: https://end.shallow.ink/icon.svg
-    desc: "Arknights: Endfield personal data management and utility platform. Provides gacha record statistics, Wiki lookup, base management, production calculator, blueprint library, and MaaEnd remote control."
+    desc: "ENDFIELD TERMINAL personal data management and utility platform. Provides gacha record statistics, Wiki lookup, base management, production calculator, blueprint library, and MaaEnd remote control."
     location: China
     organization: Entropy Increase Team
     socials:
