@@ -25,7 +25,7 @@ export default defineClientConfig({
     // 运行时间倒计时
     if (typeof window !== 'undefined') {
       const updateRunTime = () => {
-        const startTime = new Date('2024-04-27 19:00:00').getTime()
+        const startTime = new Date('2022-11-26 00:00:00').getTime()
         const now = new Date().getTime()
         const diff = now - startTime
 
