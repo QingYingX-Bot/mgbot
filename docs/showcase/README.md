@@ -42,13 +42,9 @@ createTime: 2026/03/08 11:22:27
     <h3>三角洲</h3>
     <p>三角洲相关查询与展示。</p>
   </a>
-  <a class="index-card" href="/showcase/sky/">
-    <h3>光遇</h3>
-    <p>光遇功能与指令示例。</p>
-  </a>
-  <a class="index-card" href="/showcase/mmdx/">
-    <h3>MMDX</h3>
-    <p>MMDX 功能展示与使用入口。</p>
+  <a class="index-card" href="/showcase/rocom/">
+    <h3>洛克王国</h3>
+    <p>洛克王国相关查询与展示。</p>
   </a>
 </div>
 

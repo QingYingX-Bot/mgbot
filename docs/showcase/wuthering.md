@@ -12,4 +12,8 @@ createTime: 2026/03/08 11:22:51
 `~帮助`
 {.}
 ![~帮助](/help/wuthering/cmd-wave-help.jpg)
+{大米糕}
+`ww帮助`
+{.}
+![ww帮助](/help/wuthering/cmd-ww-help.jpg)
 :::

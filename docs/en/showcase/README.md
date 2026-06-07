@@ -42,13 +42,9 @@ This is the feature showcase index. Use the left sidebar to browse categories.
     <h3>Delta Force</h3>
     <p>Delta Force query commands and examples.</p>
   </a>
-  <a class="index-card" href="/en/showcase/sky/">
-    <h3>Sky: Children of the Light</h3>
-    <p>Sky command examples and feature preview.</p>
-  </a>
-  <a class="index-card" href="/en/showcase/mmdx/">
-    <h3>MMDX</h3>
-    <p>MMDX feature showcase and usage entry.</p>
+  <a class="index-card" href="/en/showcase/rocom/">
+    <h3>Roco Kingdom</h3>
+    <p>Roco Kingdom query commands and examples.</p>
   </a>
 </div>
 

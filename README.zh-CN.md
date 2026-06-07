@@ -39,7 +39,7 @@ pnpm vp-update
 ## 联系方式
 
 - QQ 群：https://qm.qq.com/q/BaBp4oLVgQ
-- Telegram：https://t.me/Xmg_BBot
+<!-- - Telegram：https://t.me/Xmg_BBot -->
 - Discord：https://mgdc.099311.xyz
 - Email：qingyingx@099311.xyz
 

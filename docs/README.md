@@ -20,11 +20,11 @@ config:
           text: Discord
           link: https://mgdc.099311.xyz
           icon: mdi:discord
-        -
-          theme: alt
-          text: Telegram
-          link: https://t.me/Xmg_BBot
-          icon: mdi:telegram
+        # -
+        #   theme: alt
+        #   text: Telegram
+        #   link: https://t.me/Xmg_BBot
+        #   icon: mdi:telegram
   -
     type: features
     features:
@@ -49,7 +49,8 @@ config:
       -
         icon: ri:apps-fill
         title: 多平台支持
-        details: 支持 QQ、Telegram、Discord 等多个平台
+        # details: 支持 QQ、Telegram、Discord 等多个平台
+        details: 支持 QQ、Discord 等多个平台
       -
         icon: ri:shield-check-fill
         title: 隐私保护

@@ -18,7 +18,7 @@ article: false
 
 2. **"As Is"** — The Bot is provided "as is" and "as available" without any express or implied warranties. The Operator does not guarantee uninterrupted, error-free service or fitness for a particular purpose.
 
-3. **Platform Rules and Law** — When using the Bot you must comply with the user agreements and community guidelines of Tencent QQ, Telegram, Discord and other platforms, and with the laws and regulations of your jurisdiction (including but not limited to data protection, speech, and protection of minors).
+3. **Platform Rules and Law** — When using the Bot you must comply with the user agreements and community guidelines of Tencent QQ, <!-- Telegram, -->Discord and other platforms, and with the laws and regulations of your jurisdiction (including but not limited to data protection, speech, and protection of minors).
 
 ---
 

@@ -22,7 +22,7 @@ This Privacy Policy describes the types and purposes of data that the Bot may co
 
 ### 2.1 Identity and Account
 
-- **Platform identifiers**: QQ user_id, group_id, Telegram/Discord user IDs when you use the Bot on those platforms.
+- **Platform identifiers**: QQ user_id, group_id, <!-- Telegram/ -->Discord user IDs when you use the Bot on those platforms.
 - **Display information**: Nicknames, group names, avatars and other public info from platforms, used for replies, display and features (e.g. @ mentions, permission checks).
 
 ### 2.2 Messages and Interaction
@@ -85,4 +85,4 @@ This Privacy Policy describes the types and purposes of data that the Bot may co
 
 ---
 
-*This policy describes data practices for XiaoMiGao; it does not replace the separate terms of the platforms (QQ, Telegram, Discord, etc.) or third-party services you use.*
+*This policy describes data practices for XiaoMiGao; it does not replace the separate terms of the platforms (QQ, <!-- Telegram, -->Discord, etc.) or third-party services you use.*

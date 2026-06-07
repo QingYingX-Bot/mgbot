@@ -69,8 +69,7 @@ const zhShowcaseDoc = defineCollection({
     'ark',
     'endfield',
     'delta',
-    'sky',
-    'mmdx',
+    'rocom',
     'water',
   ],
   // 根据文件结构自动生成侧边栏
@@ -148,8 +147,7 @@ const enShowcaseDoc = defineCollection({
     'ark',
     'endfield',
     'delta',
-    'sky',
-    'mmdx',
+    'rocom',
     'water',
   ],
   // 根据文件结构自动生成侧边栏

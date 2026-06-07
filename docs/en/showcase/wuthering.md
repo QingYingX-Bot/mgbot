@@ -12,4 +12,8 @@ createTime: 2026/03/08 11:24:50
 `~帮助`
 {.}
 ![~帮助](/help/wuthering/cmd-wave-help.jpg)
+{BigMiGao}
+`ww帮助`
+{.}
+![ww帮助](/help/wuthering/cmd-ww-help.jpg)
 :::
