@@ -23,7 +23,7 @@ export default defineThemeConfig({
   appearance: true,  // 配置 深色模式
 
   social: [
-    { icon: 'qq', link: 'https://qm.qq.com/q/QO3auCaOAQ', ariaLabel: 'QQ' },
+    { icon: 'qq', link: 'https://qm.qq.com/q/R4cCvoFUYY', ariaLabel: 'QQ' },
   ],
   navbarSocialInclude: ['qq'], // 允许显示在导航栏的 social 社交链接
   // aside: true, // 页内侧边栏， 默认显示在右侧

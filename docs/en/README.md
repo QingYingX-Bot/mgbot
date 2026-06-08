@@ -13,7 +13,7 @@ config:
         -
           theme: brand
           text: QQ
-          link: https://qm.qq.com/q/BaBp4oLVgQ
+          link: https://qm.qq.com/q/R4cCvoFUYY
           icon: mdi:qqchat
         -
           theme: alt
